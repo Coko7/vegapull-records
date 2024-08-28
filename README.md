@@ -1,6 +1,6 @@
 # 👒 op-tcg-data
 
-Cards dataset for the One Piece TCG.
+Cards dataset for One Piece TCG.
 
 Only `en` data is available for now.
 
