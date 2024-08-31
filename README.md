@@ -2,16 +2,16 @@
 
 Collection of datasets for One Piece TCG.
 
-## Data
+## 🃏 Datasets
 
 Supported datasets:
 - [English version](https://en.onepiece-cardgame.com)
-- ⚠[Japanese version](https://www.onepiece-cardgame.com)
+- ⚠️ [Japanese version](https://www.onepiece-cardgame.com)
 
 Each dataset includes its own `cards.json` as well as images for all card arts.
 Japanese version has more data (more cards and images) than English version.
 
-### Disclaimer
+## ⚠️ Disclaimer
 
 I had some trouble when fetching data for the japanese version (`jp`):
 - Wrong formatting/missing data for `colors` or `counter` values on some cards
@@ -22,7 +22,7 @@ I tried to patch them by writing some custom code when fetching data for the `jp
 Fortunately, the `en` version does not seem to suffer from these problems.
 So, keep this in mind when picking a dataset. I would recommend working with the `en` dataset.
 
-## File structure
+## 🗃️ File structure
 
 ```
 data/
