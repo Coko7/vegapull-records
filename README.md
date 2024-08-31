@@ -2,6 +2,10 @@
 
 Collection of datasets for One Piece TCG.
 
+## Where is the scraper?
+
+For practical reasons, scraper code is kept in a separate repository: https://github.com/Coko7/op-tcg-scraper
+
 ## 🃏 Datasets
 
 Supported datasets:
