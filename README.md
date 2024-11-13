@@ -1,10 +1,10 @@
-# 👒 op-tcg-data
+# 👒 vegapull-records
 
 Collection of datasets for One Piece TCG.
 
 ## Where is the scraper?
 
-For practical reasons, scraper code is kept in a separate repository: https://github.com/Coko7/op-tcg-scraper
+For practical reasons, scraper code is kept in a separate repository: https://github.com/Coko7/vegapull
 
 ## 🃏 Datasets
 
