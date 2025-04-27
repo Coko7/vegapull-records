@@ -2,7 +2,7 @@
 
 Collection of datasets for One Piece TCG.
 
-The data in this repository has been obtained using the [vegapull scraper CLI](https://githube.com/Coko7/vegapull).
+The data in this repository has been obtained using the [vegapull scraper CLI](https://github.com/Coko7/vegapull).
 
 ## 🗃️ File structure
 
