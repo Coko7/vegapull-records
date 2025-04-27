@@ -6,37 +6,30 @@ The data in this repository has been obtained using the [vegapull scraper CLI](h
 
 ## 🗃️ File structure
 
-Datasets are categorized by language and consist of two main directories:
-- `images`: broken into sub-directories per pack and includes all images
-- `json`: contains JSON data for all cards
-    - `packs.json`: contains the list of packs
-    - `cards_{PACK-ID}.json`: contains the list of cards for pack `PACK-ID`
+Datasets are categorized by language and contain JSON data for all TCG cards:
+- `packs.json`: contains the list of packs
+- `cards_{PACK-ID}.json`: contains the list of cards for pack `PACK-ID`
 
 Example:
 ```
 data/
 ├── english/
-│   ├── images/
-│   │   ├── 569001/
-│   │   │   ├── ST01-001.png
-│   │   │   ├── ...
-│   │   │   └── ST01-017.png
-│   │   ├── ...
-│   │   └── 569901/
-│   │       ├── EB01-006_p3.png
-│   │       └── ...
-│   └── json/
-│       ├── cards_569001.json
-│       ├── cards_569002.json
-│       ├── ...
-│       ├── cards_569901.json
-│       └── packs.json
-└── jp/
-    ├── images/
-    │   └── ...
-    └── json/
-        └── ...
+│   ├── cards_569001.json
+│   ├── cards_569002.json
+│   ├── ...
+│   ├── cards_569901.json
+│   └── packs.json
+└── japanese/
+    └── cards.json
 ```
+
+**NOTE:** The current data for the japanese version was fetched using an older version of the CLI where all of the data
+was put in a single JSON file (`cards.json`).
+
+## 🖼️ Where can I download images?
+
+Storing images directly on GitHub is not the best approach.
+Instead, these images are zipped into an archive and can be downloaded along with the latest release.
 
 ## ⌛ How old is the data?
 
